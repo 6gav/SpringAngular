@@ -1,0 +1,41 @@
+.Search-bar{
+    display: flex;
+    position: absolute;
+    top: calc(50vh - 5vh);
+    left: calc(50vw - 25vw - 5vh);
+}
+
+.Search-input{
+    width: 50vw;
+
+    border: 0;
+    padding: 0;
+    padding-left: 1vw;
+    margin: 0;
+    
+    border-color: blue;
+    border-width: 1px;
+    border-top-left-radius: 0.75em;
+    border-bottom-left-radius: 0.75em;
+
+    font-size: 2em;
+}
+
+.Search-submit{
+    width: 9vh;
+    height: 9vh;
+
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+    background-image: url("../../images/Vector_search_icon.svg.png");
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-top-right-radius: 0.75em;
+    border-bottom-right-radius: 0.75em;
+
+    cursor: pointer;
+}

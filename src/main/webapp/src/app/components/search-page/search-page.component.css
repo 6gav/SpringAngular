@@ -1,0 +1,14 @@
+.Search-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #92acff;
+    min-width: 100%;
+    min-height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

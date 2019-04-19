@@ -1,0 +1,11 @@
+<div>
+  <div *ngIf="!profile">
+    
+    <app-search class="Search-page" (EmitSummoner)="SearchSummoner($event)"></app-search>
+  </div>
+    
+  <div *ngIf="profile">
+    <app-profile class="Search-page" [profile]="profile"></app-profile>
+  </div>
+  
+</div>

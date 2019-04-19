@@ -1,0 +1,24 @@
+.Nav-bar{
+    width: 100vw;
+    height: 10vh;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: #7b65ff;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a {
+    flex: 1;
+    text-align: center;
+    font-size: 3em;
+
+    text-decoration-line: unset;
+    color: #000000;
+
+}

@@ -1,0 +1,38 @@
+.Profile-page{
+
+    text-align: center;
+}
+
+.Profile-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    padding: 10px;
+
+    min-width: 30vw;
+    min-height: 30vh;
+    
+    font-size: 3em;
+
+    position: absolute;    
+    top: calc(50vh - 15vh);
+    left: calc(50vw - 15vw);
+
+    border-style: solid;
+    border-color: rgb(131, 131, 131);
+    border-width: 5px;
+    border-radius: 5vh;
+
+    background-color: rgb(192, 153, 255);
+}
+
+p{
+    margin: 0.5em;
+}
+
+img{
+    width: 5vw;
+    height: 5vw;
+}
